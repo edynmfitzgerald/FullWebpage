@@ -26,7 +26,8 @@ ul{
 
 .btn-1{
     height: 38px;
-    background-color: darkorchid;
+    background-color: #9932cc;
+    /* background-color: #eb4442; */
     padding: 0 20px;
     color: #fff;
     border: 0;
@@ -51,6 +52,7 @@ header{
     background-color: #2d2b3e;
     color: #e6e6e6;
     border-bottom: 3px solid #9932cc;
+    /* color: #eb4442; */
     padding: 5px 0;
 }
 
@@ -89,6 +91,7 @@ header a{
 
 #highlight, #current a {
     color: #9932cc;
+    /* color: #eb4442; */
     font-weight: 700;
 }
 
@@ -99,6 +102,7 @@ font-weight: 700;
 
 #showcase{
     background-image: url(cat.png);
+    /* background-image: url(laptop.png); */
     height: 400px;
     background-size: cover;
     background-position: center;
@@ -139,5 +143,47 @@ font-weight: 700;
     width: 250px;
 }
 
+#boxes{
+    height: 400px;
+}
 
+#boxes .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
 
+.box {
+    width: 30%;
+    text-align: center;
+padding: 10px;
+}
+
+i:not(#logo){
+font-size: 225px;
+}
+
+.fa-html5{
+    color: #d45632;
+}
+
+.fa-css3-alt{
+    color: #2d50dc;
+}
+
+.fa-js{
+    color: #f3df50;
+}
+
+#about{
+    background-color: #2d2b3e;
+    padding: 20px;
+    color: #fff;
+}
+
+#about .container{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    column-gap: 50px;
+}
