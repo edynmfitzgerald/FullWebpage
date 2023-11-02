@@ -26,7 +26,7 @@ ul{
 
 .btn-1{
     height: 38px;
-    background-color: #eb4442;
+    background-color: darkorchid;
     padding: 0 20px;
     color: #fff;
     border: 0;
@@ -46,4 +46,98 @@ ul{
     background-color: #2d2b3e;
     color:#e6e6e6;
 }
+
+header{
+    background-color: #2d2b3e;
+    color: #e6e6e6;
+    border-bottom: 3px solid #9932cc;
+    padding: 5px 0;
+}
+
+#logo{
+display: flex;
+position: relative;
+right: 35px;
+color: #ccc;
+font-size: 25px;
+top: 53px;
+}
+
+#branding{
+    position: relative;
+    left: 80px;
+}
+
+header .container{
+    display: flex;
+    justify-content: space-between;
+}
+
+header ul{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+header a{
+    padding: 0 20px;
+    color: #e6e6e6;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+}
+
+#highlight, #current a {
+    color: #9932cc;
+    font-weight: 700;
+}
+
+a:not(#current a){
+color: #ccc;
+font-weight: 700;
+}
+
+#showcase{
+    background-image: url(cat.png);
+    height: 400px;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: #fff;
+}
+
+#showcase .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
+#showcase h1{
+    font-size: 55px;
+}
+
+#showcase p{
+    font-size: 20px;
+}
+
+#newsletter{
+    background-color: #2d2b3e;
+    padding: 15px;
+    color: #e6e6e6;
+}
+
+#newsletter .container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#newsletter input{
+    height: 25px;
+    padding: 4px;
+    width: 250px;
+}
+
+
 
